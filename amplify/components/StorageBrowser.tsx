@@ -12,7 +12,5 @@ export const { StorageBrowser } = createStorageBrowser({
   config: createAmplifyAuthAdapter(),
 });
 
-ç
-
 
 
