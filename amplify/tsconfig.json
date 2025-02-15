@@ -6,6 +6,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx", // Use "react" if React 16 or lower
     "strict": true,
     "skipLibCheck": true,
     "paths": {
@@ -15,3 +16,4 @@
     }
   }
 }
+
