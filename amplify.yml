@@ -11,8 +11,7 @@ frontend:
       commands:
         - nvm use 18.19.0 || nvm use 20.5.0
         - npm install
-
-    build:
+  build:
       commands:
         - npm run build
   artifacts:
