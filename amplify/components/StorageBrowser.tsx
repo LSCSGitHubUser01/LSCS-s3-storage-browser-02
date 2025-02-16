@@ -1,6 +1,6 @@
 import React from 'react';
 import { createAmplifyAuthAdapter, createStorageBrowser } from '@aws-amplify/ui-react-storage/browser';
-import { ThemeProvider } from "@aws-amplify/ui-react";
+//import { ThemeProvider } from "@aws-amplify/ui-react";
 import '@aws-amplify/ui-react-storage/styles.css';
 import { Amplify } from 'aws-amplify';
 //import config from '../../amplify_outputs.json';
