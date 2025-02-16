@@ -5,18 +5,12 @@ export const storageBrowserTheme: Theme = {
   tokens: {
     components: {
       button: {
-        backgroundColor: { value: "#007bff" }, // Blue button color
+        backgroundColor: { value: "#007bff" },
         color: { value: "white" },
-        borderRadius: { value: "8px" },
-        padding: { value: "10px 16px" }
-      },
-      breadcrumb: {
-        color: { value: "#333" },
-        fontWeight: { value: "bold" }
-      },
-      paging: {
-        backgroundColor: { value: "#f8f9fa" },
-        color: { value: "#007bff" }
+        borderRadius: { value: "8px" }
+        //,
+        //paddingHorizontal: { value: "16px" }, // ✅ Correct property
+        //paddingVertical: { value: "10px" }   // ✅ Correct property
       }
     }
   }
