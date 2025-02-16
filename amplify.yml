@@ -6,7 +6,12 @@ backend:
         - npm ci --cache .npm --prefer-offline
         - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
 frontend:
-  phases:
+  phases:   
+   preBuild:
+      commands:
+        - nvm use 18.19.0 || nvm use 20.5.0
+        - npm install
+
     build:
       commands:
         - npm run build
